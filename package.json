@@ -1,0 +1,16 @@
+{
+  "name": "tenderly-xdai",
+  "version": "1.0.0",
+  "description": "PoaNetworkConsensus contract verification by Tenderly for xDai",
+  "main": "",
+  "scripts": {
+    "compile": "node_modules/.bin/truffle compile",
+    "deploy": "node_modules/.bin/truffle migrate --reset"
+  },
+  "author": "POA Network",
+  "license": "MIT",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "1.0.29",
+    "truffle": "5.1.9"
+  }
+}
